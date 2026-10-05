@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="TechStore - Premium laptops and computers configured to your specifications.">
-  <title>TechStore | Computers & Laptops</title>
+  <meta name="description" content="Grace Breed Computers - Premium laptops and computers configured to your specifications.">
+  <title>Grace Breed Computers | Computers & Laptops</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -65,7 +65,7 @@
    <label>Core / Processor<select id="cCpu"><option>Core i3</option><option>Core i5</option><option>Core i7</option><option>Core i9</option><option>Ryzen 5</option><option>Ryzen 7</option><option>Apple M2</option><option>Apple M3</option></select></label>
    <div class="two"><label>RAM<select id="cRam"><option value="8">8GB</option><option value="16" selected>16GB</option><option value="32">32GB</option><option value="64">64GB</option></select></label><label>Drive<select id="cStorage"><option value="256">256GB SSD</option><option value="512" selected>512GB SSD</option><option value="1000">1TB SSD</option><option value="2000">2TB SSD</option></select></label></div>
    <label>Use case<select id="cUse"><option>Office / School</option><option>Programming</option><option>Graphic Design</option><option>Gaming</option><option>Engineering / CAD</option><option>Business / Professional</option></select></label>
-   <div class="quote"><span>Estimated price</span><strong id="customPrice">₦650,000</strong></div>
+   <div class="quote"><span>Estimated price</span><strong id="customPrice">₦250,000</strong></div>
    <button class="btn primary full" type="submit">Add configuration to cart</button>
   </form>
  </div>
@@ -73,7 +73,7 @@
 
 <section id="about" class="section">
  <div class="container">
-  <div class="section-head"><div><p class="eyebrow">WHY TECHSTORE</p><h2>A better way to buy technology.</h2></div></div>
+  <div class="section-head"><div><p class="eyebrow">WHY GRACE BREED COMPUTERS</p><h2>A better way to buy technology.</h2></div></div>
   <div class="benefits"><div><i>✓</i><h3>Verified products</h3><p>Quality-focused sourcing and clear specifications.</p></div><div><i>⚡</i><h3>Fast fulfilment</h3><p>Order processing and delivery updates from checkout to doorstep.</p></div><div><i>🔒</i><h3>Secure checkout</h3><p>Payment-ready architecture with customer and order validation.</p></div><div><i>↻</i><h3>After-sales support</h3><p>Support for setup, warranty questions and product guidance.</p></div></div>
  </div>
 </section>
@@ -90,8 +90,8 @@
 <div id="checkoutModal" class="modal"><div class="modal-panel checkout-panel"><button class="close" onclick="closeCheckout()">×</button><div id="checkoutContent">
 <h2>Checkout</h2><p class="muted">Enter your delivery information. Payment is set up as a secure demo until a live payment key is connected.</p>
 <form onsubmit="placeOrder(event)" class="checkout-form">
-<label>Full name<input id="name" required placeholder="Your full name"></label><label>Email<input id="email" type="email" required placeholder="you@example.com"></label>
-<label>Phone<input id="phone" required placeholder="+234..."></label><label>Delivery address<textarea id="address" required placeholder="House number, street, area"></textarea></label>
+<label>Full name<input id="name" required placeholder="Your full name"></label><label>Email<input id="email" type="email" required placeholder="gracebcomputers@gmail.com"></label>
+<label>Phone<input id="phone" required placeholder="+2348137153712"></label><label>Delivery address<textarea id="address" required placeholder="House number, street, area"></textarea></label>
 <div class="two"><label>City<input id="city" required placeholder="Abuja"></label><label>State<select id="state" required><option value="">Select state</option><option>FCT</option><option>Kaduna</option><option>Lagos</option><option>Kano</option><option>Rivers</option><option>Oyo</option><option>Other</option></select></label></div>
 <label>Payment method<select id="payment"><option>Pay online (Paystack)</option><option>Bank transfer</option><option>Pay on delivery</option></select></label>
 <div class="order-summary"><span>Order total</span><strong id="checkoutTotal">₦0</strong></div>
